@@ -9,7 +9,7 @@ const App = () => {
   const dispatch = useDispatch();
   return (
     <div className="App">
-      <h1> Counter : {count}</h1>
+      <h1>{count}</h1>
       <button onClick={() =>
         dispatch(increment())
       }>Increment</button>
